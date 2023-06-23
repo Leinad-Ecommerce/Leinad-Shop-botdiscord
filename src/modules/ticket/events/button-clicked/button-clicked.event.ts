@@ -11,7 +11,6 @@ class ButtonClickedEvent extends BaseEvent {
     }
 
     async exec(interaction: Interaction): Promise<void> {
-        console.log(interaction.id)
     }
 }
 
