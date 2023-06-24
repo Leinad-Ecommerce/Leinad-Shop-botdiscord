@@ -3,8 +3,9 @@ import { BaseSlashCommand } from "@/modules/@shared/domain/command/base-slash-co
 import { NotHavePermissionMessage } from "@/modules/@shared/messages/not-have-permission/not-have-permission.message";
 import { colors } from "@/modules/@shared/utils/colors";
 import { emojis } from "@/modules/@shared/utils/emojis";
-import { CategoryChannel, ChatInputCommandInteraction, Client } from "discord.js";
+import { ChatInputCommandInteraction, Client } from "discord.js";
 import Discord from "discord.js"
+import { Database } from '@/infra/app/setup-database';
 
 class SetChannelTicketCommand extends BaseSlashCommand {
 
@@ -31,7 +32,7 @@ class SetChannelTicketCommand extends BaseSlashCommand {
 
         const category_channel = interaction.options.getChannel("category");
 
-        if (category_channel?.type !== 4) {
+        if (category_channel?.type !== Discord.ChannelType.GuildCategory) {
             interaction.reply({
                 embeds: [
                     new Discord.EmbedBuilder()
@@ -41,6 +42,8 @@ class SetChannelTicketCommand extends BaseSlashCommand {
             })
             return;
         }
+
+        await new Database().set("ticket.config.category_id", category_channel.id)
 
         await interaction.channel?.send({
             embeds: [

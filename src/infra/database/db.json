@@ -1,1 +1,93 @@
-{}
+{
+    "ticket": {
+        "config": {
+            "category_id": "1122073233382965379",
+            "category_close_id": "1122084406539071519"
+        },
+        "sessions": {
+            "1122105700303245393": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "1111111",
+                "type": "repport",
+                "channelId": "1122105700303245393",
+                "messageId": "1122105703146995732",
+                "sessionId": "b67d328d-3f85-460e-ab86-b02c6c4d844f",
+                "createdAt": "2023-06-24T10:07:20.140Z",
+                "closedAt": "2023-06-24T10:07:32.769Z"
+            },
+            "1122107140912468008": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "11111111111",
+                "type": "suggestion",
+                "channelId": "1122107140912468008",
+                "messageId": "1122107142720208926",
+                "sessionId": "e88e70aa-c3b3-4520-8d5a-2116d0887dbe",
+                "createdAt": "2023-06-24T10:12:55.808Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T10:15:16.772Z"
+            },
+            "1122107897707499522": {
+                "ownerId": "1091424433094275094",
+                "email": "teee",
+                "reason": "e11111111",
+                "type": "repport",
+                "channelId": "1122107897707499522",
+                "messageId": "1122107899934687232",
+                "sessionId": "77e8f632-7ad5-4da7-b5be-1935a0652cad",
+                "createdAt": "2023-06-24T10:16:02.123Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T10:16:20.721Z"
+            },
+            "1122108177329160192": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "111111111111",
+                "type": "suggestion",
+                "channelId": "1122108177329160192",
+                "messageId": "1122108179665399879",
+                "sessionId": "6d322a57-9a1e-45f9-9b56-a6368997b7dc",
+                "createdAt": "2023-06-24T10:17:06.391Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T10:17:24.877Z"
+            },
+            "1122108336406540298": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "1111111",
+                "type": "help",
+                "channelId": "1122108336406540298",
+                "messageId": "1122108338843426836",
+                "sessionId": "5a11a18a-1832-4ee0-96d1-3094c559891c",
+                "createdAt": "2023-06-24T10:17:50.614Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T10:18:02.299Z"
+            },
+            "1122108501746012260": {
+                "ownerId": "1091424433094275094",
+                "email": "tet",
+                "reason": "111111",
+                "type": "suggestion",
+                "channelId": "1122108501746012260",
+                "messageId": "1122108503700545606",
+                "sessionId": "61db3f85-e5ef-4f44-95d5-969adaa60af7",
+                "createdAt": "2023-06-24T10:18:26.668Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T10:18:41.098Z"
+            },
+            "1122108691462750239": {
+                "ownerId": "1091424433094275094",
+                "email": "tes",
+                "reason": "t1111111111",
+                "type": "repport",
+                "channelId": "1122108691462750239",
+                "messageId": "1122108693178220615",
+                "sessionId": "8c8edf87-3275-4902-b52b-18561ee779a8",
+                "createdAt": "2023-06-24T10:19:10.338Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T10:19:28.997Z"
+            }
+        }
+    }
+}

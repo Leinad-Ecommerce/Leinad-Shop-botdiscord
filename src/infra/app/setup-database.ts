@@ -1,6 +1,6 @@
 import { JsonDatabase } from "wio.db";
 
-class Database {
+export class Database {
     constructor(
         public db = new JsonDatabase({
             databasePath: "src/infra/database/db.json"
