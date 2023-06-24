@@ -6,7 +6,7 @@ export class EventsContainer {
 
     events: BaseEvent[] = []
 
-    constructor(){}
+    constructor() { }
 
     addEvent(event: BaseEvent): void {
         this.events.push(event)

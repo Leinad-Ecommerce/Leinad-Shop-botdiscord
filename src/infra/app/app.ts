@@ -1,4 +1,5 @@
 import "dotenv/config"
+import "./setup-database";
 import { Client, Collection } from "discord.js"
 import { setupCommand } from "./setup-commands";
 import { setupCommandInteraction } from "./interaction-create";
