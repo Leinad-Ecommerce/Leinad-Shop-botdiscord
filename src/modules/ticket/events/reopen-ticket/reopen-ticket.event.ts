@@ -26,7 +26,7 @@ class ConfirmCloseTicketEvent extends BaseEvent {
         if (interaction.channel?.type !== Discord.ChannelType.GuildText) return;
 
         await interaction.channel?.edit({
-            name: `🎫・${GetUserNameLowerCase(interaction.user.username)}`,
+            name: `🎫・${GetUserNameLowerCase(ownerUser?.user.username!)}`,
             parent: (await new Database().db.get('ticket.config.category_id') as string),
             permissionOverwrites: [
                 {
@@ -44,7 +44,7 @@ class ConfirmCloseTicketEvent extends BaseEvent {
 
         const message = await interaction.channel.messages.cache.get(session_db.messageId)
 
-        await message?.edit({
+        const message_edited = await message?.edit({
             ...OpenTicketMessage({
                 interaction,
                 client,
@@ -56,6 +56,7 @@ class ConfirmCloseTicketEvent extends BaseEvent {
 
         await new Database().db.set(`ticket.sessions.${interaction.channelId}`, {
             ...session_db,
+            messageId: message_edited?.id,
             closedAt: "",
             reopenedAt: new Date()
         })

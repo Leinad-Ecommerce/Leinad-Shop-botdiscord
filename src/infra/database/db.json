@@ -87,6 +87,42 @@
                 "createdAt": "2023-06-24T10:19:10.338Z",
                 "closedAt": "",
                 "reopenedAt": "2023-06-24T10:19:28.997Z"
+            },
+            "1122201267582795886": {
+                "ownerId": "1091424433094275094",
+                "email": "contatodanielsivalfociaiL@gmail.com",
+                "reason": "sadddddddddddddddddddddd",
+                "type": "repport",
+                "channelId": "1122201267582795886",
+                "messageId": "1122201269851934770",
+                "sessionId": "4dc479f5-2fe4-4f6e-8bb3-f09e2116cf8a",
+                "createdAt": "2023-06-24T16:26:48.480Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-24T16:27:52.725Z"
+            },
+            "1123324738031333516": {
+                "ownerId": "1091424433094275094",
+                "email": "contatoleinad@gmail.com",
+                "reason": "asdasdasda",
+                "type": "repport",
+                "channelId": "1123324738031333516",
+                "messageId": "1123324739784552580",
+                "sessionId": "e2605335-1c5a-4daa-8938-e73b96037e04",
+                "createdAt": "2023-06-27T18:50:38.580Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-27T18:51:33.194Z"
+            },
+            "1123325568159592608": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "1111111111",
+                "type": "suggestion",
+                "channelId": "1123325568159592608",
+                "messageId": "1123325570827169916",
+                "sessionId": "9b8a0025-0390-4724-9a8a-549b27837fbf",
+                "createdAt": "2023-06-27T18:54:33.826Z",
+                "closedAt": "2023-06-27T18:57:41.967Z",
+                "reopenedAt": "2023-06-27T18:54:49.579Z"
             }
         }
     }
