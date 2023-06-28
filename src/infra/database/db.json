@@ -121,8 +121,82 @@
                 "messageId": "1123325570827169916",
                 "sessionId": "9b8a0025-0390-4724-9a8a-549b27837fbf",
                 "createdAt": "2023-06-27T18:54:33.826Z",
-                "closedAt": "2023-06-27T18:57:41.967Z",
-                "reopenedAt": "2023-06-27T18:54:49.579Z"
+                "closedAt": "",
+                "reopenedAt": "2023-06-27T19:15:22.857Z"
+            },
+            "1123331011967713491": {
+                "ownerId": "1091424433094275094",
+                "email": "ta",
+                "reason": "aqqqqqqqqqqqq",
+                "type": "help",
+                "channelId": "1123331011967713491",
+                "messageId": "1123331013691572325",
+                "sessionId": "9f95f884-fce4-4f67-91a4-e645bee8ea6c",
+                "createdAt": "2023-06-27T19:16:08.687Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-27T19:27:25.885Z"
+            },
+            "1123336744373342229": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "1111111111111",
+                "type": "repport",
+                "channelId": "1123336744373342229",
+                "messageId": "1123336746231398570",
+                "sessionId": "d840deb5-641f-45f1-a7dc-1f4e3220a70b",
+                "createdAt": "2023-06-27T19:38:45.497Z"
+            },
+            "1123339040041750589": {
+                "ownerId": "437401144210227210",
+                "email": "contatodanielsilvaoficial@gmail.com",
+                "reason": "kd o afiliado porra, tamo 1 ano esperando ja",
+                "type": "suggestion",
+                "channelId": "1123339040041750589",
+                "messageId": "1123339041895624794",
+                "sessionId": "41f8786b-c7dc-415f-a1d5-4523df7383a8",
+                "createdAt": "2023-06-27T19:46:24.985Z",
+                "closedAt": "",
+                "reopenedAt": "2023-06-27T20:30:22.371Z"
+            },
+            "1123349764847702146": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "aqqqqqqqqqq",
+                "type": "suggestion",
+                "channelId": "1123349764847702146",
+                "messageId": "1123349769293672531",
+                "sessionId": "ce653b41-6c2f-4afe-b388-8845dc5175d9",
+                "createdAt": "2023-06-27T20:17:15.583Z"
+            },
+            "1123351342220578878": {
+                "ownerId": "1091424433094275094",
+                "email": "te",
+                "reason": "11111111",
+                "type": "suggestion",
+                "channelId": "1123351342220578878",
+                "messageId": "1123351344435167262",
+                "sessionId": "2aee4d88-4a0f-42e3-9c02-5be09995fbec",
+                "createdAt": "2023-06-27T20:37:00.211Z"
+            },
+            "1123351862205222962": {
+                "ownerId": "437401144210227210",
+                "email": "conta@gmail.com",
+                "reason": "xxxx vide",
+                "type": "help",
+                "channelId": "1123351862205222962",
+                "messageId": "1123351863564189776",
+                "sessionId": "2b2ebd3c-babf-426a-a088-dab3df0957d7",
+                "createdAt": "2023-06-27T20:37:54.590Z"
+            },
+            "1123354206917627934": {
+                "ownerId": "1091424433094275094",
+                "email": "teste",
+                "reason": "111111111111",
+                "type": "repport",
+                "channelId": "1123354206917627934",
+                "messageId": "1123354208733773824",
+                "sessionId": "0e22be4f-d2c6-4757-9c92-9d516ec43901",
+                "createdAt": "2023-06-27T20:41:45.987Z"
             }
         }
     }

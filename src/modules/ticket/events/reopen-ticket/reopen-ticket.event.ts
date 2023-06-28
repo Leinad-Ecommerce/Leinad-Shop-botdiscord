@@ -8,7 +8,7 @@ import { NotIsOwnerMessage } from "../../@shared/not-is-owner/not-is-owner.messa
 import { GetUserNameLowerCase } from "@/modules/@shared/utils/get-user-name-lowercase";
 import { OpenTicketMessage } from "../../@shared/ticket-messages/open-ticket.message";
 
-class ConfirmCloseTicketEvent extends BaseEvent {
+class ReopenTicketEvent extends BaseEvent {
     constructor() {
         super({
             event: "interactionCreate"
@@ -75,6 +75,6 @@ class ConfirmCloseTicketEvent extends BaseEvent {
 }
 
 export default (client: Client): void => {
-    const buttonClickedEvent = new ConfirmCloseTicketEvent()
+    const buttonClickedEvent = new ReopenTicketEvent()
     buttonClickedEvent.setupConsumer(client)
 }
