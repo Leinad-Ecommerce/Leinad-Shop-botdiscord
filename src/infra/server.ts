@@ -12,6 +12,7 @@ const sleep = (ms: number): Promise<void> => {
 }
 
 client.on("ready", async () => {
+    console.log("✅ Bot is ready!")
 
     const activities: ActivitiesProps[] = [
         {
@@ -41,6 +42,6 @@ client.on("ready", async () => {
             await sleep(activity.time);
         }
     }
-
-    console.log("✅ Bot is ready!")
 })
+
+process.setMaxListeners(0);

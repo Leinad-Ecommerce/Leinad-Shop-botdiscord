@@ -19,6 +19,7 @@ const client = new Client({
 
 
 client.commands = new Collection()
+client.setMaxListeners(0)
 
 client.login(process.env.TOKEN)
 

@@ -26,7 +26,7 @@ export const Embed = (props: Props) => {
                 value: `\`\`\`${props.type === "help" ? "📞 Ajuda" : ""}${props.type === "suggestion" ? "💡 Sugestão" : ""}${props.type === "repport" ? "🐞 BUG" : ""}\`\`\``
             },
             {
-                name: `⏱️ Criado há`,
+                name: `${emojis.time} Criado há`,
                 value: `<t:${Math.floor(props.createdAt.getTime() / 1000)}:f> \`(\`<t:${Math.floor(props.createdAt.getTime() / 1000)}:R>\`)\``
             },
         )

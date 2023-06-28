@@ -14,7 +14,8 @@ const emojis = {
     confirm: "<:confirm:1122092108468195378>",
     cancel: "<:cancel:1122092110984785990>",
     save: "💾",
-    time: "<:time:1123393484972376195>"
+    time: "<:time:1123393484972376195>",
+    email: "📭"
 }
 
 export { emojis }

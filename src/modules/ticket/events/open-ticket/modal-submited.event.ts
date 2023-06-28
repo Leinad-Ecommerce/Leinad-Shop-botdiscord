@@ -82,6 +82,27 @@ class ButtonClickedEvent extends BaseEvent {
             sessionId: ticketData.sessionId,
             createdAt: ticketData.createdAt
         })
+
+        interaction.editReply({
+            embeds: [
+                new Discord.EmbedBuilder()
+                    .setColor(colors.invisible!)
+                    .setDescription(`> ${emojis.notifiy} Olá ${interaction.user}, seu ticket foi aberto em ${channel_created}`)
+                    .setFooter({ text: "🐰 Estou ancioso pare te ajudar! Mal posso esperar..." })
+            ],
+            components: [
+                new Discord.ActionRowBuilder<any>()
+                    .addComponents(
+                        new Discord.ButtonBuilder()
+                            .setLabel('Ir para ticket')
+                            .setEmoji('🎫')
+                            .setStyle(5)
+                            .setURL(channel_created?.url!)
+                    )
+            ]
+        })
+
+        return;
     }
 }
 
